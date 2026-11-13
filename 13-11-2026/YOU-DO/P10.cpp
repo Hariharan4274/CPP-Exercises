@@ -5,13 +5,7 @@ int main(){
   int userip, index=0, size=0;
   cout<<"Enter the number: "<<endl;
   cin>>userip;
-    // for(int j=0; j<size(factarr); j++){
-    //   while(userip>0&&userip%2!=0){
-    //     userip--;
-    //   }
-    //   factarr[j]=userip;
-      
-    // }
+
   for(int i=1; i<=userip; i++){
     if(userip%i==0){
       factarr[index]=i;
