@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+int isMatch(int num);
 int isMatch(int num) {
     int last, first;
     last = num % 10;
