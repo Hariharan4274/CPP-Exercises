@@ -12,14 +12,14 @@ void add(int a, int b){
 void add(int a, int b, float c){
    cout<<"The addition of two numbers: "<<a+b+c<<endl;
 }
-int add(int c, float d){
-  cout<<"The addition of two numbers: "<<c+d<<endl; 
-  return c+d;
+int add(int a, float b){
+  cout<<"The addition of two numbers: "<<a+b<<endl; 
+  return ;
 }
 
-int add(int c, int d, int e){
-  cout<<"The addition of two numbers: "<<c+d+e<<endl; 
-  return c+d+e;
+int add(int a, int b, int c){
+  cout<<"The addition of two numbers: "<<a+b+c<<endl; 
+  return a+b+c;
 }
 int main(){
   add();
